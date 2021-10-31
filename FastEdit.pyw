@@ -282,9 +282,9 @@ def B4():
 
 
 
-button1 = tk.Button(canvas1, text='Duplicates', highlightbackground='#696969', fg="white", height=3, command=lambda:B1()).pack(fill=tk.X)
-button2 = tk.Button(canvas1, text='Merge Files', highlightbackground='#696969', fg="white", height=3, command=lambda:B2()).pack(fill=tk.X)
-button3 = tk.Button(canvas1, text='Split File', highlightbackground='#696969', fg="white", height=3, command=lambda:B3()).pack(fill=tk.X)
-button4 = tk.Button(canvas1, text='Regex', highlightbackground='#696969', fg="white", height=3, command=lambda:B4()).pack(fill=tk.X)
+button1 = tk.Button(canvas1, text='Duplicates', bg='#696969', fg="white", height=3, command=lambda:B1()).pack(fill=tk.X)
+button2 = tk.Button(canvas1, text='Merge Files', bg='#696969', fg="white", height=3, command=lambda:B2()).pack(fill=tk.X)
+button3 = tk.Button(canvas1, text='Split File', bg='#696969', fg="white", height=3, command=lambda:B3()).pack(fill=tk.X)
+button4 = tk.Button(canvas1, text='Regex', bg='#696969', fg="white", height=3, command=lambda:B4()).pack(fill=tk.X)
 
 root.mainloop()
